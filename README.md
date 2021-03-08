@@ -7,7 +7,7 @@
 ```sh
 terraform init
 ```
-This will initialize terrafrom and load the required plugins.
+This will initialize terraform and load the required plugins.
 ```sh
 terraform plan
 ```
