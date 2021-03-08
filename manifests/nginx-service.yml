@@ -1,0 +1,14 @@
+#Digital Ocean LoadBalancer Service
+kind: Service
+apiVersion: v1
+metadata:
+  name: nginx-server
+spec:
+  type: LoadBalancer
+  selector:
+    app: nginx-server
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 80
