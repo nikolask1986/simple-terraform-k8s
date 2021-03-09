@@ -16,5 +16,5 @@ This will print out what resources are going to be created. Review them and then
 terraform apply
 ```
 By answering 'yes', a basic kubernetes cluster with an nginx deployment and a loadbalancer ingress controller will spin up.
-When you visit the ip of the load balancer nginx welcome page will show:
+When you visit the ip of the load balancer, nginx welcome page will be shown:
 ![Alt text](/screenshots/terraform1.png?raw=true "nginx welcome page")
